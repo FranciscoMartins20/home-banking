@@ -1,0 +1,17 @@
+.page {
+    display: flex;
+    height: 100vh;
+    
+  }
+  
+  .app-nav {
+    padding: 10px;
+    flex: 0 0 auto; 
+  }
+  
+  .dashboard-container {
+    flex: 1; 
+    padding: 20px;
+  }
+  
+  

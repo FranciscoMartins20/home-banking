@@ -1,0 +1,14 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <!-- <mat-toolbar>Bem vindo</mat-toolbar> -->
+    <mat-nav-list>
+      <a mat-list-item href="#">Página Inicial</a>
+      <a mat-list-item href="#">Depositar</a>
+      <a mat-list-item href="#">Retirar</a>
+      <a mat-list-item href="#">Lista de Movimentos</a>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>

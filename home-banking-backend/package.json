@@ -1,0 +1,20 @@
+{
+  "name": "home-banking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Francisco Martins",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "bcrypt": "^5.1.0",
+    "hapi-cors": "^1.0.3",
+    "hapi-cors-headers": "^1.0.3",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1"
+  }
+}

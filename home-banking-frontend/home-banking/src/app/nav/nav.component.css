@@ -1,0 +1,9 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: flex-grow;
+}
+
+
